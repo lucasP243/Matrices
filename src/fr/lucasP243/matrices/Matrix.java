@@ -80,14 +80,6 @@ public interface Matrix<T extends Number> {
      */
     Matrix<Number> multiply(Matrix<? extends Number> matrix);
 
-    /**
-     * Divide this matrix by another matrix.
-     *
-     * @param matrix The matrix to divide this matrix by.
-     * @return The modified matrix.
-     */
-    Matrix<Number> divide(Matrix<? extends Number> matrix);
-
 
     /**
      * Compute the matrix determinant.
